@@ -7,9 +7,15 @@ function max(a,b) {
     return numMayor;
 }
 
-numeros = [15,17];
-numMayor = numeros[0];
-for (x=1;x numMayor){
-    numMayor = numeros[x];
+let num1 = 15;
+let num2 = 17;
+numMayor = true;
+
+console.log('¿Num 1 es mayor que Num2?');
+if (num1 < num2){
+    numMayor = true;
+    
+} else {
+    numMayor= false;
 }
-console.log(`El número mayor es: ${numMayor}`);
+
